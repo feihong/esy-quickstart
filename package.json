@@ -20,6 +20,7 @@
     "@opam/dune": "*",
     "@opam/lambda-term": "*",
     "@opam/lwt": "^4.2.0",
+    "@opam/utop": "2.4.0",
     "ocaml": "~4.8.0"
   },
   "devDependencies": {

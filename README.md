@@ -1,31 +1,26 @@
-# hello-ocaml
+# Feihong's Esy quickstart
 
-[![Build status](https://ci.appveyor.com/api/projects/status/owyhaxk3ebeb6yq8/branch/master?svg=true)](https://ci.appveyor.com/project/esy/hello-ocaml/branch/master)
-[![Build Status](https://travis-ci.org/esy-ocaml/hello-ocaml.svg?branch=master)](https://travis-ci.org/esy-ocaml/hello-ocaml)
-
-A project which demonstrates an OCaml workflow with [Esy][].
+Show how to get started with [Esy].
 
 [Esy]: https://github.com/esy-ocaml/esy
-[npm]: https://www.npmjs.com
 
-## Usage
+## Prerequisites
 
-You need Esy, you can install the beta using [npm][]:
+    yarn global add esy
 
-    % npm install -g esy
+## Install and build
 
-Then you can install the project dependencies using:
+Running just `esy` is equivalent to running `esy install` and `esy build`.
 
-    % esy install
+Install package
 
-Then build the project dependencies along with the project itself:
+    esy add @opam/utop
 
-    % esy build
+## Commands
 
-Now you can run your editor within the environment (which also includes merlin):
+Run repl
 
-    % esy $EDITOR
-    % esy vim
+    esy utop
 
 After you make some changes to source code, you can re-run project's build
 using:

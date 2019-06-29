@@ -1,5 +1,5 @@
 {
-  "checksum": "f134a917834a1f93a6ac122993766d03",
+  "checksum": "2c307a34192c743414b1fb6e6e9f1984",
   "root": "hello-ocaml@link-dev:./package.json",
   "node": {
     "ocaml@4.8.0@d41d8cd9": {
@@ -27,7 +27,8 @@
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.8.0@d41d8cd9", "@opam/lwt@opam:4.2.1@c1888ec9",
+        "ocaml@4.8.0@d41d8cd9", "@opam/utop@opam:2.4.0@276edac8",
+        "@opam/lwt@opam:4.2.1@c1888ec9",
         "@opam/lambda-term@opam:2.0.1@dc5acac8",
         "@opam/dune@opam:1.10.0@b15ce221"
       ],
@@ -93,6 +94,46 @@
       "devDependencies": [
         "ocaml@4.8.0@d41d8cd9", "@opam/easy-format@opam:1.3.1@9abfd4ed",
         "@opam/biniou@opam:1.2.0@c8516f18"
+      ]
+    },
+    "@opam/utop@opam:2.4.0@276edac8": {
+      "id": "@opam/utop@opam:2.4.0@276edac8",
+      "name": "@opam/utop",
+      "version": "opam:2.4.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/c9/c9d14aa542a6db57e9d1050c2cc6548d#md5:c9d14aa542a6db57e9d1050c2cc6548d",
+          "archive:https://github.com/ocaml-community/utop/releases/download/2.4.0/utop-2.4.0.tbz#md5:c9d14aa542a6db57e9d1050c2cc6548d"
+        ],
+        "opam": {
+          "name": "utop",
+          "version": "2.4.0",
+          "path": "esy.lock/opam/utop.2.4.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.8.0@d41d8cd9", "@opam/react@opam:1.2.1@0e11855f",
+        "@opam/ocamlfind@opam:1.8.0@f744a0c5",
+        "@opam/lwt_react@opam:1.1.2@2d73ee34",
+        "@opam/lwt@opam:4.2.1@c1888ec9",
+        "@opam/lambda-term@opam:2.0.1@dc5acac8",
+        "@opam/dune@opam:1.10.0@b15ce221", "@opam/cppo@opam:1.6.6@25eb99ce",
+        "@opam/camomile@opam:1.0.1@ab4729e2",
+        "@opam/base-unix@opam:base@87d0b2eb",
+        "@opam/base-threads@opam:base@36803084",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.8.0@d41d8cd9", "@opam/react@opam:1.2.1@0e11855f",
+        "@opam/ocamlfind@opam:1.8.0@f744a0c5",
+        "@opam/lwt_react@opam:1.1.2@2d73ee34",
+        "@opam/lwt@opam:4.2.1@c1888ec9",
+        "@opam/lambda-term@opam:2.0.1@dc5acac8",
+        "@opam/camomile@opam:1.0.1@ab4729e2",
+        "@opam/base-unix@opam:base@87d0b2eb",
+        "@opam/base-threads@opam:base@36803084"
       ]
     },
     "@opam/topkg@opam:1.0.0@61f4ccf9": {

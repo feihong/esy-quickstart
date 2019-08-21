@@ -25,12 +25,12 @@ Run repl
 After you make some changes to source code, you can re-run project's build
 using:
 
-    % esy build
+    esy build
 
 And test compiled executable:
 
-    % esy ./_build/default/bin/hello.exe
+    esy x hello
 
 Shell into environment:
 
-    % esy shell
+    esy shell

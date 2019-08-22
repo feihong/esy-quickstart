@@ -34,3 +34,7 @@ And test compiled executable:
 Shell into environment:
 
     esy shell
+
+Install package:
+
+    esy add @opam/emoji

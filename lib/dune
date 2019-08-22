@@ -1,3 +1,5 @@
+(include_subdirs unqualified)
+
 (library
   (name lib)
   (public_name hello-ocaml)

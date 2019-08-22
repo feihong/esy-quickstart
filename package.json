@@ -7,10 +7,15 @@
     "build": "dune build -p #{self.name}",
     "release": {
       "bin": "hello",
-      "includePackages": [ "root", "@opam/camomile" ]
+      "includePackages": [
+        "root",
+        "@opam/camomile"
+      ]
     }
   },
-  "scripts": { "test": "esy x hello" },
+  "scripts": {
+    "test": "esy x hello"
+  },
   "dependencies": {
     "@opam/dune": "*",
     "@opam/emoji": "1.1.0",
@@ -19,5 +24,8 @@
     "@opam/utop": "2.4.0",
     "ocaml": "~4.8.0"
   },
-  "devDependencies": { "@opam/merlin": "^3.3.0", "ocaml": "~4.8.0" }
+  "devDependencies": {
+    "@opam/merlin": "^3.3.0",
+    "ocaml": "~4.8.0"
+  }
 }

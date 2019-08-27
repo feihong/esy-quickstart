@@ -1,3 +1,4 @@
+(dirs :standard \ ignore)
 (include_subdirs unqualified)
 
 (library

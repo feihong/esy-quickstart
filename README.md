@@ -57,6 +57,6 @@ Purge unused builds from global cache (excluding those for current sandbox):
 
 ## Notes
 
-The first build can take a really long time.
+The first run of `esy` can take a really long time, maybe 10 minutes.
 
-Esy keeps global files inside `~/.esy`. This directory can get huge. I just ran `du -sh ~/.esy` and it yielded 22 GB! Remember to regularly run `esy cleanup`.
+Esy keeps global files inside `~/.esy`. This directory can get huge. I just ran `du -sh ~/.esy` and it yielded 22 GB! Remember to occasionally run `esy cleanup`. For just this project, size of `~/.esy` is 1.8 GB.
